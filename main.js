@@ -4,7 +4,7 @@ import {get,postWithToken} from "https://cdn.jsdelivr.net/gh/jscroot/api@0.0.6/c
 import {getCookie} from "https://cdn.jsdelivr.net/gh/jscroot/cookie@0.0.1/croot.js";
 
 
-get("https://api.do.my.id/notif/ux/getlaporan/"+getHash(),runafterGet)
+get("https://dhanihape.alwaysdata.net/rate/selfie/"+getHash(),runafterGet)
 
 onClick("tombol",runOnRating);
 
@@ -23,7 +23,7 @@ function runOnRating(){
         komentar:getValue("komentar")
     }
     setInner("feedback","Mohon tunggu sebentar data sedang dikirim");
-    postWithToken("https://api.do.my.id/notif/ux/postrating","login",getCookie("login"),datarating,responseFunction);
+    postWithToken("https://dhanihape.alwaysdata.net/rate/selfie","login",getCookie("login"),datarating,responseFunction);
 }
 
 function responseFunction(result){
