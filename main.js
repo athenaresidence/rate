@@ -10,8 +10,7 @@ onClick("tombol",runOnRating);
 
 function runafterGet(result){
     console.log(result);
-    result.iduser && setInner("petugas",result.iduser);
-    result.nama && setInner("petugas",result.nama);
+    setInner("petugas", result.nama || result.iduser);
     // Mengganti \n dengan <br> untuk menampilkan baris baru
     let solusiDenganBarisBaru = result.solusi.replace(/\n/g, "<br>");
     setInner("solusi", solusiDenganBarisBaru);
