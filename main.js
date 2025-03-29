@@ -28,6 +28,5 @@ function runOnRating(){
 
 function responseFunction(result){
     console.log(result);
-    setInner("feedback","Feedback berhasil dikirim terima kasih. "+result.info);
-
+    setInner("feedback", result.info === "1" ? "Feedback berhasil dikirim terima kasih." : "Feedback gagal dikirim, coba lagi.");
 }
