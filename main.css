@@ -152,6 +152,10 @@
     margin-top: 20px; /* Ganti nilai ini sesuai dengan kebutuhan Anda */
   }
 
+.ket {
+    margin-top: 10px; /* Ganti nilai ini sesuai dengan kebutuhan Anda */
+  }
+
   .teks-tebal-tengah {
     font-weight: bold;
     text-align: center;
