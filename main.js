@@ -1,4 +1,4 @@
-import {getValueRadio,setInner,onClick,setValue,show,getValue,onInput} from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
+import {getValueRadio,setInner,onClick,setValue,show,getValue,onInput} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/element.js";
 import {getHash} from "https://cdn.jsdelivr.net/gh/jscroot/url@0.0.9/croot.js";
 import {get,postWithToken} from "https://cdn.jsdelivr.net/gh/jscroot/api@0.0.6/croot.js";
 import {getCookie,setCookieWithExpireDay} from "https://cdn.jsdelivr.net/gh/jscroot/cookie@0.0.1/croot.js";
