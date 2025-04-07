@@ -15,8 +15,8 @@ function runafterGet(result){
     console.log(result);
     setInner("petugas", result.nama || result.iduser);
     // Mengganti \n dengan <br> untuk menampilkan baris baru
-    let solusiDenganBarisBaru = result.solusi.replace(/\n/g, "<br>");
-    setInner("solusi", solusiDenganBarisBaru);
+    //let solusiDenganBarisBaru = result.solusi.replace(/\n/g, "<br>");
+    //setInner("solusi", solusiDenganBarisBaru);
 }
 
 function runOnRating(){
